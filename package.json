@@ -15,6 +15,7 @@
   "dependencies": {
     "hexo-front-matter": "^0.2.3",
     "hexo-fs": "^0.2.0",
+    "touch": "^3.1.0",
     "unzip": "^0.1.11"
   }
 }

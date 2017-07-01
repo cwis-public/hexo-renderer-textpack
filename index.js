@@ -2,9 +2,9 @@
 
 "use strict;";
 
-var renderer = require("./lib/renderer.js").get(hexo);
-var file = require("./lib/file.js");
+var renderer = require("./lib/renderer.js").get(hexo),
+	file = require("./lib/file.js");
 
-file.initialize();
+file.initialize(hexo);
 
 hexo.extend.renderer.register('textpack', 'html', renderer, true);
