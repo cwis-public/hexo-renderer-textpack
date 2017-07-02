@@ -1,1 +1,11 @@
-{"esversion":6}
+{
+	"node": true,
+	"curly": true,
+	"eqeqeq": true,
+	"immed": true,
+	"latedef": true,
+	"noempty": true,
+	"nonbsp": true,
+	"undef": true,
+	"esversion": 6
+}
