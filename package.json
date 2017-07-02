@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-textpack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hexo renderer for .textpack files",
   "main": "index.js",
   "scripts": {
