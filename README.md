@@ -12,6 +12,6 @@ No setup is required. Once this module is installed, Hexo will render textpack f
 
 Calls to the hexo-fs module from hexo are intercepted by this module, so that reading a textpack files returns its text content. Additionally, reading a textpack registers all the assets it contains, by using special URLs inside the textpack, such as:
 
-	_posts/example.textpack/assets/textbundle.png
+	\_\_textpack-dynamic\_\_/_posts/example.textpack/assets/textbundle.png
 
 When reading this asset, this module intercepts this file read operation, and returns the assets/textbundle.png file inside the \_posts/example.textpack textpack.
