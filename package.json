@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "/home/disblog/git/hexo-renderer-textpack.git/"
+    "url": "https://github.com/cwis-public/hexo-renderer-textpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^1.3.0",
     "hexo-front-matter": "^0.2.3",
     "hexo-fs": "^0.2.0",
-    "touch": "^3.1.0",
     "unzip": "^0.1.11"
   }
 }
