@@ -1,6 +1,6 @@
 var Textpack = require("../lib/textpack.js");
 
-var FILE = "./examples/example.textpack";
+var FILE = "./examples/ulysses.textpack";
 
 process.on("uncaughtException", function(err) {
 	console.error(err);
